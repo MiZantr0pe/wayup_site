@@ -1,0 +1,278 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+div, p, input, button, form, span {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, ul, li { 
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 900;
+}
+
+h1, p {
+	line-height: 1.4em;
+}
+
+h3 {
+	font-size: 19px;
+	
+}
+
+
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	background: rgba(77,192,254,1);
+	background: -moz-linear-gradient(-45deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(77,192,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(135deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dc0fe', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 60px;
+	color: #fff;
+}
+
+.wrapper {
+	display: flex;
+	/*justify-content: space-between;*/
+	align-items: center;
+}
+
+.offer {
+	width: 100%;
+}
+
+.title {
+	font-size: 36px;
+}
+
+.title span {
+	font-size: 59px;
+	line-height: 1.4em;
+}
+
+.intro {
+	margin-top: 20px;
+	font-size: 16px;
+	width: 383px;
+	opacity: 80%;
+	line-height: 1.7em;
+}
+
+.btn {
+	/*border-radius: 10px;*/
+	display: block;
+	width: 220px;
+	background: #ffd429;
+	color: #2e2a1b;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	text-align: center;
+	padding: 20px 0;
+	margin-top: 40px;
+}
+
+.btn:hover {
+	background: #f1890e;
+	transition: all 0.5s ease;
+}
+
+.travel {
+	/*margin-top: 60px;*/
+	margin-bottom: 45px;
+	margin-right: -60px; 
+}
+
+.becoming {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.future {
+	padding-top: 90px;
+	padding-bottom: 106px;
+	background: #ecf3f8;
+}
+
+.section-title {
+	text-align: center;
+	font-size: 30px;
+}
+
+.life {
+	display: flex;
+	justify-content: space-between;
+}
+
+.hobby {
+	width: 310px;
+	background: url('../img/ICON1.png') no-repeat top;
+	padding-top: 90px;
+	margin-top: 60px;
+}
+
+.hobby-time {
+	width: 280px;
+}
+
+.hobby-travel {
+	background: url('../img/ICON2.png') no-repeat top;
+}
+
+.hobby-value {
+	background: url('../img/ICON3.png') no-repeat top;
+}
+
+.hobby-title {
+	text-align: center;
+}
+
+.hobby-text {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	opacity: 70%;
+}
+
+.copyright {
+	font-size: 14px;
+	text-align: center;
+	background: #164d7a;
+	color: #fff;
+	margin: 0;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+form {
+	margin-top: 55px;
+	/*margin: 0 auto;*/
+}
+
+input {
+	padding-left: 24px;
+	width: 340px;
+	height: 45px;
+	border: 1px solid #bbb;
+	border-radius: 2px;
+	font-size: 15px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+.btn-form {
+	display: block;
+	margin-top: 0;
+	border: 0;
+	width: 340px;
+	margin: 0 auto;
+}
+
+/*Responsive*/
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+
+	.container {
+		width: 90%;
+	}
+
+	.wrapper {
+		flex-direction: column-reverse;
+	}
+
+	.img {
+		margin-bottom: 0;
+	}
+
+	.offer {
+		text-align: center;
+	}
+
+	.travel {
+		width: 70%;	
+		margin: 0 auto;
+	}
+	
+	.intro {
+		margin: 0 auto; 
+		width: 100%;
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+
+	.btn {
+	margin: 0px auto
+	}
+
+	.wrapper {
+		padding-bottom: 40px;
+	}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+
+	.hobby-travel {
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+
+	.logo {
+		padding: 0 auto;	
+		padding-left: 20px;
+	}
+
+	.container {
+		width: 90%;
+	}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+
+	.life {
+		flex-direction: column;
+	}
+
+	.intro {
+		width: 95%;
+	}
+	
+	.hobby {
+		width: auto;
+	}
+
+	input {
+		width: 90%;
+	}
+
+	.btn-form {
+		width: 90%;
+	}
+
+	.travel {
+		width: 100%;
+		display: block;
+		text-align: center;
+		float: left;
+	}
+}
